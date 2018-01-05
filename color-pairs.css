@@ -1,0 +1,76 @@
+body {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  margin: 0; }
+
+h1 {
+  background: #f3f3f3;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: 1px solid #d6d6d6; }
+
+h2 {
+  padding: 10px;
+  font-size: 13px; }
+
+div {
+  box-sizing: border-box; }
+
+.branch-0, .branch-1, .branch-2, .branch-3 {
+  height: 150px;
+  width: 20%;
+  margin: -2px;
+  display: inline-block;
+  background: #f3f3f3; }
+
+.branch-0.branch-path-0 {
+  background: #2a9d8f; }
+
+.branch-1.branch-path-0 {
+  background: #007ACC; }
+
+.branch-1.branch-path-1 {
+  background: #089962; }
+
+.branch-1.branch-path-2 {
+  background: #18FF5F; }
+
+.branch-1.branch-path-3 {
+  background: #C9FF3E; }
+
+.branch-1.branch-path-4 {
+  background: #CC9310; }
+
+.branch-2.branch-path-0 {
+  background: #CC550F; }
+
+.branch-2.branch-path-1 {
+  background: #C800FF; }
+
+.branch-2.branch-path-2 {
+  background: #FF2D88; }
+
+.branch-2.branch-path-3 {
+  background: #99342D; }
+
+.branch-2.branch-path-4 {
+  background: #5D29CC; }
+
+.branch-3.branch-path-0 {
+  background: #00CCBE; }
+
+.branch-3.branch-path-1 {
+  background: #005699; }
+
+.branch-3.branch-path-2 {
+  background: #FF62FA; }
+
+.branch-3.branch-path-3 {
+  background: #FF4556; }
+
+.branch-3.branch-path-4 {
+  background: #8ECC59; }
+
+/*# sourceMappingURL=color-pairs.css.map */

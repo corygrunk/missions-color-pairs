@@ -1,0 +1,90 @@
+// Variables
+$white: rgba(255, 255, 255, 1);
+$white-trans: rgba(255, 255, 255, .5);
+$black: rgba(0, 0, 0, 1);
+$black-trans: rgba(0, 0, 0, .5);
+$gray-lighter: rgba(243, 243, 243, 1);
+$gray-lighter-trans: rgba(243, 243, 243, .5);
+$gray-light: rgba(214, 214, 214, 1);
+$gray-light-trans: rgba(214, 214, 214, .5);
+$gray: rgba(150, 150, 150, 1);
+$gray-trans: rgba(150, 150, 150, .5);
+$gray-dark: rgba(74, 74, 74, 1);
+$gray-dark-trans: rgba(74, 74, 74, .5);
+$gray-darker: rgba(46, 46, 46, 1);
+$gray-darker-trans: rgba(46, 46, 46, .5);
+$blue-lighter: rgba(239, 249, 252, 1);
+$blue-light: rgba(145, 195, 214, 1);
+$blue: rgba(2, 153, 207, 1);
+$blue-trans: rgba(0, 142, 200, .5);
+$blue-dark: rgba(24, 107, 140, 1);
+$blue-dark-trans: rgba(24, 107, 140, .5);
+$blue-darker: rgba(38, 70, 83, 1);
+$blue-darker-trans: rgba(38, 70, 83, .5);
+$blue-darkest: #0D2A35;
+$green: rgba(42, 157, 143, 1);
+$green-trans: rgba(42, 157, 143, .5);
+$green-light: rgba(225, 242, 240, 1);
+$green-light-trans: rgba(225, 242, 240, .5);
+$green-bright: #09B22A;
+$yellow: rgba(233, 196, 106, 1);
+$yellow-light: rgba(251, 234, 192, 1);
+$yellow-light-trans: rgba(251, 234, 192, .75);
+$yellow-trans: rgba(233, 196, 106, .5);
+$orange: rgba(244, 162, 97, 1);
+$orange-trans: rgba(244, 162, 97, .5);
+$red: rgba(231, 111, 81, 1);
+$red-light: rgba(255, 230, 225, 1);
+$red-trans: rgba(231, 111, 81, .5);
+
+body {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: $gray-dark;
+  margin: 0;
+}
+
+h1 {
+  background: $gray-lighter;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: 1px solid $gray-light;
+}
+
+h2 {
+  padding: 10px;
+  font-size: 13px;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.branch-0, .branch-1, .branch-2, .branch-3 {
+  height: 150px;
+  width: 20%;
+  margin: -2px; // Ugh.
+  display: inline-block;
+  background: $gray-lighter;
+}
+
+.branch-0.branch-path-0 { background: $green; }
+
+.branch-1.branch-path-0 { background: #007ACC; }
+.branch-1.branch-path-1 { background: #089962; }
+.branch-1.branch-path-2 { background: #18FF5F; }
+.branch-1.branch-path-3 { background: #C9FF3E; }
+.branch-1.branch-path-4 { background: #CC9310; }
+
+.branch-2.branch-path-0 { background: #CC550F; }
+.branch-2.branch-path-1 { background: #C800FF; }
+.branch-2.branch-path-2 { background: #FF2D88; }
+.branch-2.branch-path-3 { background: #99342D; }
+.branch-2.branch-path-4 { background: #5D29CC; }
+
+.branch-3.branch-path-0 { background: #00CCBE; }
+.branch-3.branch-path-1 { background: #005699; }
+.branch-3.branch-path-2 { background: #FF62FA; }
+.branch-3.branch-path-3 { background: #FF4556; }
+.branch-3.branch-path-4 { background: #8ECC59; }
